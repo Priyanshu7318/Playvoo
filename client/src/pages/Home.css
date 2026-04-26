@@ -1,0 +1,17 @@
+.home-container {
+  width: 100%;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.no-videos {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: var(--text-soft);
+  font-size: 18px;
+}
